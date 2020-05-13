@@ -23,4 +23,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/statistics', 'HomeController@index')->name('statistics');
+Route::get('/referral_link', 'HomeController@index')->name('referral_link');
+Route::get('/referral_link', 'HomeController@index')->name('referral_link');
