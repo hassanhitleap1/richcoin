@@ -29,8 +29,8 @@
             </div>
         </div>
     </div>
-    <div class="container" id="app">
-        <price-coin-component></price-coin-component>
+    <div class="container">
+        <grafica-component></grafica-component>
     </div>
 
 @endsection
